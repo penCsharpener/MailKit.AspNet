@@ -8,19 +8,19 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.1</TargetFramework>
+    <TargetFramework>net5.0</TargetFramework>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Version>3.0.0</Version>
+    <Version>5.0.0</Version>
     <Authors>Lvcc</Authors>
     <Company />
-    <Description>MailKit extension for asp.net core. Easy send email in asp.net core project.</Description>
+    <Description>MailKit extension for asp.net 5.0. Easy send email in asp.net project.</Description>
     <Copyright>Copyright 2017 (c) Lvcc. All rights reserved</Copyright>
     <PackageProjectUrl>https://github.com/myloveCc/NETCore.MailKit</PackageProjectUrl>
     <RepositoryUrl>https://github.com/myloveCc/NETCore.MailKit</RepositoryUrl>
-    <PackageTags>MailKit ASP.NETCore</PackageTags>
+    <PackageTags>MailKit ASP.NET</PackageTags>
     <RepositoryType>git</RepositoryType>
-    <AssemblyVersion>3.0.0</AssemblyVersion>
-    <FileVersion>3.0.0</FileVersion>
+    <AssemblyVersion>5.0.0</AssemblyVersion>
+    <FileVersion>5.0.0</FileVersion>
     <PackageReleaseNotes></PackageReleaseNotes>
   </PropertyGroup>
 
@@ -32,7 +32,7 @@
 
   <ItemGroup>
     <PackageReference Include="MailKit" Version="2.15.0" />
-    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.1.24" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.2" />
   </ItemGroup>
 
 </Project>
