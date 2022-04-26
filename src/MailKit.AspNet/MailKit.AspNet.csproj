@@ -11,12 +11,12 @@
     <TargetFramework>net6.0</TargetFramework>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Version>6.0.0</Version>
-    <Authors>Lvcc</Authors>
+    <Authors>Lvcc, penCsharpener</Authors>
     <Company />
-    <Description>MailKit extension for asp.net 5.0. Easy send email in asp.net project.</Description>
-    <Copyright>Copyright 2017 (c) Lvcc. All rights reserved</Copyright>
-    <PackageProjectUrl>https://github.com/myloveCc/NETCore.MailKit</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/myloveCc/NETCore.MailKit</RepositoryUrl>
+    <Description>Fork of Lvcc's NETCore.MailKit with up to date example project and dependencies.</Description>
+    <Copyright>Copyright 2017 (c) Lvcc, penCsharpener. All rights reserved</Copyright>
+    <PackageProjectUrl>https://github.com/penCsharpener/MailKit.AspNet</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/penCsharpener/MailKit.AspNet</RepositoryUrl>
     <PackageTags>MailKit ASP.NET</PackageTags>
     <RepositoryType>git</RepositoryType>
     <AssemblyVersion>6.0.0</AssemblyVersion>
