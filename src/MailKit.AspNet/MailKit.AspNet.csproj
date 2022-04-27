@@ -1,22 +1,15 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup Label="Globals">
-    <SccProjectName>SAK</SccProjectName>
-    <SccProvider>SAK</SccProvider>
-    <SccAuxPath>SAK</SccAuxPath>
-    <SccLocalPath>SAK</SccLocalPath>
-  </PropertyGroup>
-
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Version>5.0.0</Version>
-    <Authors>Lvcc</Authors>
-    <Company />
-    <Description>MailKit extension for asp.net 5.0. Easy send email in asp.net project.</Description>
-    <Copyright>Copyright 2017 (c) Lvcc. All rights reserved</Copyright>
-    <PackageProjectUrl>https://github.com/myloveCc/NETCore.MailKit</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/myloveCc/NETCore.MailKit</RepositoryUrl>
+    <Authors>Lvcc, penCsharpener</Authors>
+    <Description>Fork of Lvcc's NETCore.MailKit with up to date example project and dependencies.</Description>
+    <Copyright>Copyright 2017 (c) Lvcc, 2022 (c) penCsharpener. All rights reserved</Copyright>
+    <PackageProjectUrl>https://github.com/penCsharpener/MailKit.AspNet</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/penCsharpener/MailKit.AspNet</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageTags>MailKit ASP.NET</PackageTags>
     <RepositoryType>git</RepositoryType>
     <AssemblyVersion>5.0.0</AssemblyVersion>
@@ -28,6 +21,7 @@
     <Compile Remove="Core\Internal\**" />
     <EmbeddedResource Remove="Core\Internal\**" />
     <None Remove="Core\Internal\**" />
+    <None Include="LICENSE.txt" Pack="true" />
   </ItemGroup>
 
   <ItemGroup>
