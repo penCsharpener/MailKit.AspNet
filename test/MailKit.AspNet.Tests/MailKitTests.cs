@@ -1,10 +1,9 @@
-using MailKit.AspNet.Core;
-using NETCore.MailKit.Core;
-using NETCore.MailKit.Infrastructure.Internal;
 using System;
+using MailKit.AspNet.Core;
+using MailKit.AspNet.Infrastructure.Internal;
 using Xunit;
 
-namespace NETCore.MailKit.Tests
+namespace MailKit.AspNet.Tests
 {
     public class MailKitTests
     {

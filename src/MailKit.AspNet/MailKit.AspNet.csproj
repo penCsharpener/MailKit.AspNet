@@ -1,20 +1,21 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net10.0</TargetFramework>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Version>6.0.0</Version>
+    <Version>10.0.0</Version>
     <Authors>Lvcc, penCsharpener</Authors>
     <Description>Fork of Lvcc's NETCore.MailKit with up to date example project and dependencies.</Description>
-    <Copyright>Copyright 2017 (c) Lvcc, 2022 (c) penCsharpener. All rights reserved</Copyright>
+    <Copyright>Copyright 2017 (c) Lvcc, 2026 (c) penCsharpener. All rights reserved</Copyright>
     <PackageProjectUrl>https://github.com/penCsharpener/MailKit.AspNet</PackageProjectUrl>
     <RepositoryUrl>https://github.com/penCsharpener/MailKit.AspNet</RepositoryUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageTags>MailKit ASP.NET</PackageTags>
     <RepositoryType>git</RepositoryType>
-    <AssemblyVersion>6.0.0</AssemblyVersion>
-    <FileVersion>6.0.0</FileVersion>
+    <AssemblyVersion>10.0.0</AssemblyVersion>
+    <FileVersion>10.0.0</FileVersion>
     <PackageReleaseNotes></PackageReleaseNotes>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
 
   <ItemGroup>
@@ -22,11 +23,12 @@
     <EmbeddedResource Remove="Core\Internal\**" />
     <None Remove="Core\Internal\**" />
     <None Include="LICENSE.txt" Pack="true" />
+    <None Include="..\..\README.md" Pack="true" PackagePath="\"/>
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="MailKit" Version="3.2.0" />
-    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
+    <PackageReference Include="MailKit" Version="4.14.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="10.0.1" />
   </ItemGroup>
 
 </Project>
